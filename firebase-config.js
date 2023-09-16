@@ -1,4 +1,3 @@
-// Replace these placeholders with your actual Firebase project configuration
 const firebaseConfig = {
     apiKey: "AIzaSyCnipQLIPAe8ey1AKMGAQO9CGAdiSIqauU",
     authDomain: "momandmechat-196f2.firebaseapp.com",
@@ -10,8 +9,6 @@ const firebaseConfig = {
     measurementId: "G-YBRNK2TYH7"
 };
 
-// Initialize Firebase with the configuration
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
 }
-
